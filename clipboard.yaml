@@ -1,5 +1,5 @@
 name: clipboard
-version: 1.0.0
-description: copy code to the clipboard.
+version: dev-master
+description: clipboardJs Plugin for Typemill
 author: gnuschichten
 licence: MIT
