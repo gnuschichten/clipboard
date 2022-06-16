@@ -6,6 +6,7 @@ if (initButton) {
 
         const button = document.createElement("button");
         const content = item.innerText;
+        const clipboard = new ClipboardJS(button);
 
         button.innerHTML = "copy";
         button.classList.add("btn");
@@ -13,17 +14,5 @@ if (initButton) {
 
         item.appendChild(button);
 
-    }
-
-    const buttons = document.querySelector('.btn');
-
-    if (buttons) {
-
-        buttons.addEventListener("click", function () {
-
-            const btns = document.querySelectorAll('.btn');
-            const clipboard = new ClipboardJS(btns);
-
-        });
     }
 }
