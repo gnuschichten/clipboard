@@ -1,0 +1,8 @@
+.btn {
+    border: none;
+    font-size: 1rem;
+    cursor: copy;
+    float: right;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem;
+}

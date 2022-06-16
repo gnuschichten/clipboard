@@ -20,5 +20,6 @@ class clipboard extends Plugin
 	{
 		$this->addJS('/clipboard/public/clipboard.min.js');
         $this->addJS('/clipboard/public/initClipboard.js');
+        $this->addCSS('/clipboard/public/default.css');
 	}
 }
